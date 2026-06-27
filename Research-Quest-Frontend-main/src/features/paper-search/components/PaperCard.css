@@ -1,0 +1,41 @@
+/* PaperCard.css - Paper Card Component Styles */
+
+.paper-card-selected {
+  @apply ring-2 ring-blue-500 border-blue-500;
+}
+
+.paper-card-title {
+  @apply text-base font-semibold text-gray-900 mb-1 line-clamp-2;
+}
+
+.paper-card-authors {
+  @apply text-sm text-gray-600 mb-2;
+}
+
+.paper-card-meta {
+  @apply flex flex-wrap items-center gap-2 text-xs text-gray-500 mb-3;
+}
+
+.paper-card-meta-icon {
+  @apply inline-flex items-center gap-1;
+}
+
+.paper-card-meta-icon-svg {
+  @apply w-3.5 h-3.5;
+}
+
+.paper-card-doi {
+  @apply inline-flex items-center gap-1 text-blue-600;
+}
+
+.paper-card-abstract {
+  @apply text-sm text-gray-600 line-clamp-3 mb-3;
+}
+
+.paper-card-keywords {
+  @apply flex flex-wrap gap-1.5;
+}
+
+.paper-card-content {
+  @apply p-4;
+}

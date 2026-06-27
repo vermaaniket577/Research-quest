@@ -1,0 +1,45 @@
+/* SimilarPapers.css - Similar Papers Component Styles */
+
+.similar-papers-container {
+  @apply bg-gray-50 rounded-lg p-4;
+}
+
+.similar-papers-title {
+  @apply text-sm font-semibold text-gray-700 mb-3;
+}
+
+.similar-papers-list {
+  @apply space-y-2;
+}
+
+.similar-papers-skeleton {
+  @apply animate-pulse bg-white rounded p-3 border border-gray-200;
+}
+
+.similar-papers-skeleton-line {
+  @apply h-3 bg-gray-200 rounded;
+}
+
+.similar-papers-skeleton-line-short {
+  @apply h-2 bg-gray-200 rounded;
+}
+
+.similar-papers-item {
+  @apply w-full text-left bg-white rounded p-3 border border-gray-200 hover:border-blue-300 hover:shadow-sm transition-all;
+}
+
+.similar-papers-item-title {
+  @apply text-sm font-medium text-gray-900 line-clamp-2 mb-1;
+}
+
+.similar-papers-item-meta {
+  @apply text-xs text-gray-500;
+}
+
+.similar-papers-item-badge {
+  @apply mt-1;
+}
+
+.similar-papers-badge-text {
+  @apply text-[10px];
+}

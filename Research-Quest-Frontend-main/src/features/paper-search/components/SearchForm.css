@@ -1,0 +1,25 @@
+/* SearchForm.css - Search Form Component Styles */
+
+.search-form-container {
+  @apply bg-white rounded-lg border border-gray-200 shadow-sm p-6 mb-6;
+}
+
+.search-form-row {
+  @apply flex gap-3;
+}
+
+.search-form-input-wrapper {
+  @apply flex-1;
+}
+
+.search-form-deep-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-4;
+}
+
+.search-form-submit-row {
+  @apply flex justify-end;
+}
+
+.search-form-icon {
+  @apply w-4 h-4 mr-2;
+}

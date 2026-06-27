@@ -1,0 +1,77 @@
+/* PaperDetail.css - Paper Detail Component Styles */
+
+.paper-detail-container {
+  @apply bg-white rounded-lg border border-gray-200 shadow-md p-6 mb-6;
+}
+
+.paper-detail-header {
+  @apply flex items-start justify-between mb-4;
+}
+
+.paper-detail-header-content {
+  @apply flex-1;
+}
+
+.paper-detail-badge-row {
+  @apply flex items-center gap-2 mb-2;
+}
+
+.paper-detail-label {
+  @apply text-xs font-medium text-blue-600 uppercase tracking-wide;
+}
+
+.paper-detail-title {
+  @apply text-xl font-bold text-gray-900 mb-2;
+}
+
+.paper-detail-close-btn {
+  @apply ml-4 p-1 text-gray-400 hover:text-gray-600 rounded-full hover:bg-gray-100 transition-colors;
+}
+
+.paper-detail-close-icon {
+  @apply w-6 h-6;
+}
+
+.paper-detail-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-4 mb-4;
+}
+
+.paper-detail-field-label {
+  @apply text-sm font-medium text-gray-500 mb-1;
+}
+
+.paper-detail-field-value {
+  @apply text-sm text-gray-900;
+}
+
+.paper-detail-link {
+  @apply text-sm text-blue-600 hover:text-blue-800 hover:underline;
+}
+
+.paper-detail-na {
+  @apply text-sm text-gray-500;
+}
+
+.paper-detail-section {
+  @apply mb-4;
+}
+
+.paper-detail-section-title {
+  @apply text-sm font-medium text-gray-500 mb-2;
+}
+
+.paper-detail-abstract-text {
+  @apply text-sm text-gray-700 leading-relaxed;
+}
+
+.paper-detail-keywords {
+  @apply flex flex-wrap gap-1.5;
+}
+
+.paper-detail-actions {
+  @apply flex gap-3 pt-3 border-t border-gray-100;
+}
+
+.paper-detail-action-icon {
+  @apply w-4 h-4 mr-1.5;
+}
